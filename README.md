@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Todo-List</h1>
+  <h1>Gerenciador de Tarefas</h1>
 </div>
 
 A repository to project **Task Manegement System** code.
@@ -20,12 +20,10 @@ If you are not using Docker to run the application, please follow the instructio
      npm install -g npm@10.5.0
      ```
 
-These versions are recommended to ensure compatibility and proper functioning of the application. If you are using Docker, these steps are not necessary as the environment is configured within the container.
-
 <h3 style="font-size: 18px;">🧬 Clone this repository</h3>
 
 ```bash
-git clone https://github.com/GabrielGuerreir0/todo-list-manager.git
+git clone https://github.com/GeanFilho/GerenciadorTarefas.git
 ```
 
 <h3 style="font-size: 18px;"> Install dependencies</h3>
@@ -37,7 +35,7 @@ npm install
 <h3 style="font-size: 18px;">🚀 Run the application</h3>
 
 ```bash
-npm run dev
+npm start
 ```
 
 Open [http://localhost:5137](http://localhost:5137) to view it in the browser.
@@ -50,15 +48,6 @@ npm run build
 
 Builds the app for production to the `build` folder.
 
-# 📦 Docker
-
-If you prefer to use Docker, you can build the image with the following command:
-
-```bash
-docker-compose up --build
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # 🚀 Techs
 
@@ -67,8 +56,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # 👨🏻‍💻 Author
 
-- GitHub: [GabrielGuerreir0](https://github.com/GabrielGuerreir0)
-- LinkedIn: [Gabriel Guerreiro](https://www.linkedin.com/in/gabriel-guerreiro-8b13a825a/)
+- GitHub: [GeanFilho](https://github.com/GeanFilho)
+- LinkedIn: [GeanFilho](https://www.linkedin.com/in/gean-filho-52943a231/)
 
 # ✨ Show your support
 
