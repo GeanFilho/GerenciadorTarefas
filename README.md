@@ -8,7 +8,6 @@ A repository to project **Task Manegement System** code.
 
 **Environment Requirements**
 
-If you are not using Docker to run the application, please follow the instructions below to set up your development environment:
 
 1. **Node.js**: Download and install Node.js version `18.20.0`.
 
