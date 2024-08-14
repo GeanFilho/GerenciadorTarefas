@@ -1,42 +1,75 @@
+<div align="center">
+  <h1>Todo-List</h1>
+</div>
 
+A repository to project **Task Manegement System** code.
 
-A repository for a Task Management System application built with React.
- Getting Started
-Environment Requirements
+# 🎮 Getting started
 
+**Environment Requirements**
 
-    Node.js: Download and install Node.js version 18 or above.
-        Recommended version: Node.js 18.x.x
+If you are not using Docker to run the application, please follow the instructions below to set up your development environment:
 
-    npm: After installing Node.js, ensure that npm is updated.
-        You can update npm with the following command:
+1. **Node.js**: Download and install Node.js version `18.20.0`.
 
-        bash
+   - [Node.js 18.20.0](https://nodejs.org/en/download/releases/)
 
-        npm install -g npm@latest
+2. **npm**: After installing Node.js, make sure the npm version is `10.5.0`.
+   - You can update npm with the following command:
+     ```bash
+     npm install -g npm@10.5.0
+     ```
 
-🧬 Clone this Repository
+These versions are recommended to ensure compatibility and proper functioning of the application. If you are using Docker, these steps are not necessary as the environment is configured within the container.
 
-Clone the repository using the following command:
+<h3 style="font-size: 18px;">🧬 Clone this repository</h3>
 
-git clone https://github.com/GeanFilho/GerenciadorTarefas.git
+```bash
+git clone https://github.com/GabrielGuerreir0/todo-list-manager.git
+```
 
-Install Dependencies
+<h3 style="font-size: 18px;"> Install dependencies</h3>
 
- NodeJs and React
+```bash
+npm install
+```
 
+<h3 style="font-size: 18px;">🚀 Run the application</h3>
 
-Open http://localhost:3000 to view the application in the browser.
-🚀 Techs
+```bash
+npm run dev
+```
 
-    React
-    React Router DOM
+Open [http://localhost:5137](http://localhost:5137) to view it in the browser.
 
-👨🏻‍💻 Author
+<h3 style="font-size: 18px;">🍷 Build</h3>
 
-    GitHub: GeanFilho
-    LinkedIn: GeanFilho
+```bash
+npm run build
+```
 
-✨ Show Your Support
+Builds the app for production to the `build` folder.
+
+# 📦 Docker
+
+If you prefer to use Docker, you can build the image with the following command:
+
+```bash
+docker-compose up --build
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+# 🚀 Techs
+
+- React
+- React Router DOM
+
+# 👨🏻‍💻 Author
+
+- GitHub: [GabrielGuerreir0](https://github.com/GabrielGuerreir0)
+- LinkedIn: [Gabriel Guerreiro](https://www.linkedin.com/in/gabriel-guerreiro-8b13a825a/)
+
+# ✨ Show your support
 
 Give a ⭐ if this project helped you or if you liked it!
