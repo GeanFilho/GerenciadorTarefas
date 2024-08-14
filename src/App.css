@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Largura máxima para ambas as abas */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  overflow-y: auto;
+  max-height: 100vh;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+
+.button:hover, .logout-button:hover, .teste1:hover {
+  background-color: #007BFF;
+}
+
+.logout-button {
+  margin-top: 10px; /* Essa margem pode ser ajustada */
+}
+
+.task-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.task-group h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  overflow-y: auto;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+li h3 {
+  font-size: 16px;
+  color: #333;
+}
+
+li p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.task-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.task-buttons button {
+  background-color: #007BFF;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
   color: white;
+  cursor: pointer;
+  flex: 1 0 45%;
 }
 
-.App-link {
-  color: #61dafb;
+.task-buttons button:hover {
+  background-color: #007BFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.teste1{
+  background-color: #007BFF;
+}
+
+.logout-button{
+  width: 360px;
+  background-color: #007BFF;
+}
+
+.button{
+  background-color: #007BFF;
+}
+
+.entrar {
+  background-color: #007BFF;
+}
+
+.cadastro {
+  background-color: #007BFF;
 }
