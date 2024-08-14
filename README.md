@@ -37,7 +37,7 @@ npm install
 npm start
 ```
 
-Open [http://localhost:5137](http://localhost:5137) to view it in the browser.
+Open [http://localhost:5137](http://localhost:3000) to view it in the browser.
 
 <h3 style="font-size: 18px;">🍷 Build</h3>
 
